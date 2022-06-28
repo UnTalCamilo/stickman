@@ -36,6 +36,12 @@ context.moveTo(200, 80);
 context.lineTo(150, 130);
 context.moveTo(200, 80);
 context.lineTo(250, 130);
+
+context.moveTo(250, 130);
+context.lineTo(270, 110);
+
+context.moveTo(150, 130);
+context.lineTo(120, 110);
 context.stroke();
 
 // legs
@@ -43,7 +49,9 @@ context.beginPath();
 context.strokeStyle = "orange";
 context.moveTo(200, 180);
 context.lineTo(150, 280);
+context.lineTo(130, 280);
 context.moveTo(200, 180);
 context.lineTo(250, 280);
+context.lineTo(270, 280);
 context.stroke();
 }
